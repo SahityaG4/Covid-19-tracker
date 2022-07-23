@@ -1,0 +1,22 @@
+.table{
+    margin-top: 20px;
+    overflow: scroll; /* if it starts overflowing then it will scroll */
+    height: 400px;
+    color: #6a5d5d;
+    background-color: white;
+}
+
+.table tr{
+    display: flex; /*so when the width decreases and it goes to bottom then it occupies complete space*/
+    justify-content: space-between; /*for space between country and cases*/
+
+}
+
+.table td{
+    padding: 0.5rem; /*to make it look neat with space*/
+    
+}
+
+.table tr:nth-of-type(odd){
+    background-color: #f3f2f8; /*for every odd number row this color works*/ 
+}
